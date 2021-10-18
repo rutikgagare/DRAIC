@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Orbitron:wght@500&family=Secular+One&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar{
+    background-color:#2d2c2c;
+    height: 55px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.logo{
+    color: white;
+    padding: 0px 163px 0px 183px;
+}
+.logo h2{
+    margin: 13px 0px 0px 0px;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    margin: 15px 0px 0px 250px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(250, 246, 246);
+    padding: 4px 20px 4px 20px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar li a:hover{
+    color: rgb(47, 175, 248);
+    /* text-decoration: underline; */
+}
+
+.main{
+    background-color: black;
+}
+.container{
+  background-image: url("images/network-g0d1e2caf4_1920.jpg");
+  height: 790px;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(241, 240, 235);
+  font-family: 'Bree Serif', serif;
+  font-family: 'Orbitron', sans-serif;
+  font-family: 'Secular One', sans-serif;
+  width: 100%;
+
+}
+
+.container img{
+    height: 330px;
+    width: 250px;
+    margin: 135px 2px 2px 2px ;
+}
+
+.container h1 {
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+.container h2{
+    margin: -26px 2px 2px 2px;
+    font-size: 32px;
+}
+.container2 {
+    height: 640px;
+    background-color: #177579;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+.container2 .aboutus{
+    padding: 2px 2px 2px 2px;
+}
+.container2 h2,h1{
+    font-size: 36px;
+
+}
+.container2 p{
+    font-size: 25px;
+}
+.container3 {
+    height: 250px;
+    width: 100%;
+    background-color: rgb(255 252 251);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container3 .competitions{
+    display: flex;
+}
+.container3 img {
+    padding: 2px 2px;
+    height: 95px;
+    width: 214px;
+    margin: 22px 2px 2px 2px;
+}
+
+.container4{
+    height: 250px;
+    width: 100%;
+    background-color:rgb(190 46 23);
+    display: flex;
+    justify-content: center;
+}
+
+.container4 img{
+    height: 173px;
+    margin: 46px 265px 2px -128px;}
+
+.container4 .email{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 2px 2px 2px;
+    font-size: 22px;
+
+}
+.email a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.email ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: -22px 0px 0px -38px ;
+    
+}
+.email ul li{
+    padding: 2px 10px 2px 2px;
+    color: black;
+}
+
+.email ul li a{
+    color: black;
+}
+
+.footer {
+    width: 100%;
+    height: 65px;
+    padding: 0px 0px 9px 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,88 @@
+/* Achievement css */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Orbitron:wght@500&family=Secular+One&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    background-color: rgb(17, 17, 17);
+    background-color:#2d2c2c;
+    height: 55px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.logo{
+    color: white;
+    padding: 0px 163px 0px 183px;
+}
+.logo h2{
+    margin: 13px 0px 0px 0px;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    margin: 15px 0px 0px 250px;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 4px 20px 4px 20px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar li a:hover{
+    color: rgb(47, 175, 248);
+    /* text-decoration: underline; */
+}
+.section1{
+    height: 300vh;
+    background-color: rgb(8, 8, 8);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Achieve{
+    height: 280vh;
+    width:80%;
+    padding: 100px 0;
+    background-color: rgb(2, 2, 2);
+    border: 3px dashed blue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img1{
+    display: flex;
+}
+
+.img1 img{
+    margin: 20px 20px;
+}
+
+.Achieve h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+}
+.footer {
+    width: 100%;
+    height: 65px;
+    padding: 0px 0px 9px 0px;
+    background-color: rgb(2, 7, 39);
+    color: rgb(253, 249, 249);
+    text-align: center;
+    font-size: 18px;
+    bottom: 0;
+
+}

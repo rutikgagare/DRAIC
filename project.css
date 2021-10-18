@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Orbitron:wght@500&family=Secular+One&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(10, 10, 10);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    background-color: rgb(17, 17, 17);
+    background-color:#2d2c2c;
+    height: 55px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.logo{
+    color: white;
+    padding: 0px 163px 0px 183px;
+}
+.logo h2{
+    margin: 13px 0px 0px 0px;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    margin: 15px 0px 0px 250px;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 4px 20px 4px 20px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar li a:hover{
+    color: rgb(47, 175, 248);
+    /* text-decoration: underline; */
+}
+
+.section{
+    height: 850px;
+    /* border: 2px solid red; */
+    margin: 0px 120px;
+    padding: 80px 40px;
+    background-color:rgb(5, 5, 5) ;
+    color: white;
+    font-family:cursive;
+    border: 2px dashed rgb(64, 185, 241);
+}
+
+.subsection{
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(10, 10, 10);
+    height: 550px;
+    padding: 80px 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 21px;
+    margin: 40px 0px;
+}
+
+.subsection .project1{
+    background-color: white;
+    height:500px ;
+    width: 384px;
+    color: black;
+    text-align: center;
+    margin: 10px 10px;
+    border-radius: 4px;
+
+}
+
+.project1 img{
+    width: 383px;
+    height: 250px;
+    
+}
+
+.project1 h2,p{
+    padding: 0px 10px;
+}
+
+.project1 h2{
+    color: red;
+}
+
+.footer {
+    width: 100%;
+    height: 65px;
+    padding: 0px 0px 9px 0px;
+    background-color: rgb(2, 7, 39);
+    color: rgb(245, 240, 240);
+    text-align: center;
+    font-size: 18px;
+    bottom: 0;
+}
